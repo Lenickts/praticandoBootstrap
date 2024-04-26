@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style type="text/css">  /*CSS inline*/
+        body{
+            background-color: #363636;
+        }
+        #menu_dois{
+            font-family: 'Courier New', Courier, monospace;
+            align-items: center;            
+        }
+        nav{
+            align-items: center;            
+            margin-right: 350px;
+            padding: 5px 5px 2px 5px;
+            border-color: #0000CD;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        nav li{
+            list-style: none;
+            display: inline;
+            margin: 0 0 0 15px;
+            margin-bottom: 10px;                        
+        }
+        nav a{            
+            text-decoration:none;
+            text-transform: uppercase;
+            font-weight: bold;         
+        }     
+        nav a:hover{                /*hover é o efeito ao passar o mouse*/
+            font-size: 20pt;
+            font-weight: bolder;
+        }
+        article{
+            background-color: #7FFFD4;
+            margin-right: 200px;
+            margin-left: 300px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 2cm;
+            padding-top: 2cm;
+            border-style: solid;
+            border-color: #0000CD;
+            border-radius: 50px;
+        }
+        form{
+            border-style: double;
+            padding-top: 1cm;
+            padding-left: 1cm;
+            padding-bottom: 1cm;
+        }
+        label{
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h3{
+            font-weight: bold;
+            text-align: center;
+            padding-top: 0px;
+            padding-bottom: 10px;
+        }
+        fieldset{
+            margin-right: 4cm;            
+        }
+
+    </style>
+</head>
+<body>
+    <article>
+        <nav>
+            <div id="menu_dois">
+                <ul>
+                    <li>
+                        <a href="teste.html">Início</a>                    
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br><br>
+        
+        <form action="teste.html">
+            <h3>Informações</h3>
+            
+            <section>
+                <fieldset>    
+                    <legend>Dados de login</legend>
+                    <label for="email">e-Mail</label>
+                    <input style="display: block;" id="email" type="email"  name="email" placeholder="coloque um email válido" />
+                
+                    <label for="passoword">Senha</label>
+                    <input style="display: block;" id="passoword" type="password" name="password" />
+                </fieldset>
+            </section>
+            
+            <section><br>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    
+                    <label for="nome_idade">Nome completo:</label><br>
+                    <input type="text" name="nome_idade" maxlength="100" value=""/><br>
+                    <label for="nome_idade">Data de nascimento</label><br>
+                    <input type="date" name="idade" value=""/>
+                    
+                    <br><br>
+                    <label for="radio">Sexo:</label><br>
+                    <input id="radio" type="radio" name="sexo" value="masculino" />Masculino <br>
+                    <input id="radio" type="radio" name="sexo" value="feminino" />Feminino
+                    
+                    <br><br>
+                    <label for="radio">Orientação Sexual:</label><br>
+                    <input id="radio" type="radio" name="orientacao_sexual" value="homo" />Homossexual <br>
+                    <input id="radio" type="radio" name="orientacao_sexual" value="bissexual" />Bissexual <br>
+                    <input id="radio" type="radio" name="orientacao_sexual" value="heterossexual" />Heterossexual <br>
+                    <input id="radio" type="radio" name="orientacao_sexual" value="assexual" />Assexual
+                </fieldset>
+            </section><br><br>
+
+            <!--  
+                        Deixei comentado para não aparecer no site, mas para você não perder o que criou
+
+            <label for="range">range</label>
+            <input style="display: block;" id="range" type="range" name="range" />
+            
+            <label for="number">namber</label>
+            <input style="display: block;" id="number" type="number" name="number" />
+
+            <label for="file">namber</label>
+            <input style="display: block;" id="file" type="file" name="file" />
+
+            <label for="date">namber</label>
+            <input style="display: block;" id="date" type="date" name="date" />
+
+            <select style="display: block;" name="dia da semana">
+                <option value="inválido">domingo</option> 
+                <option value="segunda">segunda</option> 
+                <option value="terça">terça</option> 
+                <option value="quarta">quarta</option> 
+                <option value="quinta">quinta</option> 
+                <option value="sexta">sexta</option> 
+                <option value="inválido">sábado</option> 
+            </select>-->
+            
+            <section>
+                <fieldset>
+                    <legend>Comentários</legend>
+                    <textarea name="mensagem" id="mensagem" rows="20" cols="55" maxlength="500" placeholder="Deixe seu comentário"></textarea><br>
+                    <button>enviar</button>
+                </fieldset>
+            </section>            
+        </form>
+    </article>
+</body>
+</html>
