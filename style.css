@@ -1,0 +1,58 @@
+body{
+    background-color: #363636;
+}
+article{
+    background-color: #7FFFD4;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-color: #0000CD;
+    border-radius: 50px;
+}        
+h1,h2,h3{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    text-align: center;         
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    padding-top: 30px;
+}
+.inicio{
+    text-align: center;
+}
+#div2{                           /*Para referenciar o ID utilizar o '#'*/
+    border-radius: 10px;
+    border-color: #0000CD;
+    border-style: solid;
+    padding-bottom: 10px;
+    padding-left: 7px;            
+}
+#menu_Principal{
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;            
+}        
+nav a:hover{                /*hover é o efeito ao passar o mouse*/
+    font-size: 20pt;
+    font-weight: bolder;
+} 
+#monalisa{
+    display: inline-block;
+    margin: 50px;
+    border-radius: 11px;
+    border-color: #0000CD;
+    border-style: solid;
+    width: 255px;
+    height: 255px;
+}
+img{
+    border-radius: 9px;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
