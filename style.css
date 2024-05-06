@@ -41,11 +41,14 @@ hr{
 	border-top-width: 1px;
 	   
 }
-
 #magia{
     border-radius: 10px;
     border-color: #0000CD;
     border-style: solid;
     padding-bottom: 10px;
     padding-left: 7px;
+}
+article{
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
