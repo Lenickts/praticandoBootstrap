@@ -99,3 +99,9 @@ img{
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius);
 }
+hr{    
+    border-width: 0; 
+	height: 1px;
+	border-top-width: 1px;
+	   
+}
