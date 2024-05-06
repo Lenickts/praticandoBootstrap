@@ -47,8 +47,15 @@ hr{
     border-style: solid;
     padding-bottom: 10px;
     padding-left: 7px;
+    margin: 2rem 10rem 10rem 0;
 }
 article{
     margin-left: 10rem;
     margin-right: 10rem;
+}
+p{
+    margin-left: 15px;
+}
+.negrito{
+    font-weight: bolder;
 }
