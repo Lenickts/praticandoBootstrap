@@ -14,16 +14,23 @@ p{
     padding-top: 30px;
 }
 .navbar-brand{
-    color: white;
-    
+    color: white;    
 }
-.navbar-nav{
-    color: white;
+.d-inline-flex{
+    display: inline-flex;    
+    padding-left: 40%;
 }
-nav a:hover{                /*hover é o efeito ao passar o mouse*/
+nav a:hover{
     font-size: 20pt;
     color: white;
     font-weight: bolder;
+}
+li {
+    margin: 0.5%;
+    background: #092962;
+    width: 12.985714%;
+    text-align: center;
+    display: inline-block;
 }
 .card{
     margin-left: 30%;    
@@ -42,8 +49,10 @@ hr{
     border-radius: 10px;
     border-color: #0000CD;
     border-style: solid;
-    margin: 10px 0 20px 20px;
-    width: 50%;
+    margin: 2cm 0 20px 100px;
+    padding-bottom: 1cm;
+    width: 90%;
+    display: block;
 } 
 p{
     margin-left: 15px;
