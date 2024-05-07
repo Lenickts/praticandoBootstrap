@@ -13,16 +13,23 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     padding-top: 30px;
+    margin-left: 15px;
 }
 .card{
-    margin-left: 30%;    
+    display: block;
+    margin-left: auto;
     margin-right: auto;
-    border: solid 1px;
-    border-radius: 10px;
+    width: 50%;
 }
 .card-body{
     border: solid 1px;
     border-radius: 10px;
+}
+article{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #magia{
     border-radius: 10px;
@@ -32,12 +39,24 @@ p{
     padding-bottom: 1cm;
     width: 90%;
     display: block;
-} 
-p{
-    margin-left: 15px;
 }
 .negrito{
     font-weight: bolder;
+}
+.rodape{
+    background-color:#333;
+    overflow: hidden;
+    color: white;    
+    height: 1cm;
+}
+.rodape p{
+    float: right;
+    padding-right: 20px;
+    margin: 0px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Nova NAV */
