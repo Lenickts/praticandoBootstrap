@@ -7,36 +7,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="img/favicon" href="img/bruxa.ico">
     
-    <title>A tentativa</title>    
+    <title>Magias</title>    
 
 </head>
-<body> <!--início do meu html-->
-  <section class="container-fluid"> <!--eu sempre opto por separar por seções, artigos e divs pra ficar bem organizado-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body>
+  <header id="header" class="container-fluid justify-content-center">
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark" >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Praticando Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Praticando bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </div>
         </div>
       </div>
-    </nav>    
-  <section class="container-fluid" id="magia">
+    </nav>
+  </header>    
+  <section class="container-fluid justify-content-center" id="magia">
     <article class="container-fluid">
       <h3>
         Magias
@@ -51,18 +44,18 @@
           plantas venenosas, fantasmas, necromancia e feitiçaria.<br><br>          
           Ela reinara sobre a terra, mar e céu, bem como possuía um papel universal de salvadora (Soteira) e a Alma do Mundo Cósmico.
           Ela era uma das principais deidades adoradas nos lares atenienses como deusa protetora e como a que conferia 
-          prosperidade e bênçãos diárias à família.
-            <div class="card" style="width: 18rem;">
-              <img src="img/hecate.png" class="card-img-top" alt="Deusa Hecate">
-              <div class="card-body">
-                <h5 class="card-title">Hécate</h5>
-                <div class="small text-muted">Deusa da magia / Origem Grega</div>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://segredosdomundo.r7.com/hecate-deusa/#google_vignette" class="btn btn-primary" target="_blank">Mais</a>
-              </div>
-            </div>
-        </p><br>
-    </article>
+          prosperidade e bênçãos diárias à família.            
+        </p>
+        <div class="card" style="width: 18rem;">
+          <img src="img/hecate.png" class="card-img-top" alt="Deusa Hecate">
+          <div class="card-body">
+            <h5 class="card-title">Hécate</h5>
+            <div class="small text-muted">Deusa da magia / Origem Grega</div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://segredosdomundo.r7.com/hecate-deusa/#google_vignette" class="btn btn-primary" target="_blank">Mais</a>
+          </div>
+        </div>
+    </article><br><br><br>
     <article class="container-fluid">
       <h4>
         WICCA
@@ -70,20 +63,38 @@
         <p>
           A Deusa é amplamente adorada por wiccanos, estes que a adoram em sua forma tripla, <b>a Donzela, a Mãe e a Anciã.</b> 
           Hécate sendo representante das forças do Sagrado Feminino, 
-          juntamente com o Deus Cornífero wiccano, representante das forças do Sagrado Masculino.
+          juntamente com o Deus Cornífero wiccano, representante das forças do Sagrado Masculino.          
         </p>          
         <p>
-          Sed vel nisl eleifend, congue mauris vitae, molestie sem. Integer eu vulputate ex. Cras pulvinar at quam eget rhoncus. Morbi ullamcorper eros vitae porta eleifend. Duis lectus lacus, venenatis in leo vitae, gravida placerat ligula. Nulla facilisis, elit et finibus consectetur, velit odio ultricies purus, vel feugiat nunc augue at turpis. Suspendisse laoreet sit amet tortor quis sodales. Cras commodo id tellus vitae auctor. Nunc tortor enim, hendrerit vel nibh non, tincidunt aliquet lorem. Fusce blandit mollis quam, vitae pulvinar sapien bibendum in. Donec vestibulum condimentum lacus, in gravida lectus ultricies in. Vestibulum condimentum ultrices quam, in semper nisl ornare nec.
+          A Wicca é uma religião pagã que se dedica ao conhecimento da espiritualidade a partir da natureza e da psique humana. Nessa religião as pessoas adoram duas divindades: o Deus Cornífero, ou Deus de Chifres, representado pelo Sol e pelos animais e a “Deusa” representada pela Lua e pela Terra. A celebração wiccana ocorre a cada passagem cíclica da natureza, ou seja, na passagem de uma estação a outra, abordando toda a história de suas divindades, enfatizando o nascimento, a morte e o renascimento.
         </p>
-    </article>
+        <div class="card" style="width: 18rem;">
+          <img src="img/wicca.jpg" class="card-img-top" alt="Símbolo dos elementos Wicca">
+          <div class="card-body">
+            <h5 class="card-title">Wicca</h5>
+            <div class="small text-muted">Religião pagã</div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://brasilescola.uol.com.br/religiao/wicca.htm" class="btn btn-primary" target="_blank">Mais</a>
+          </div>
+        </div>
+    </article><br><br><br>
     <article class="container-fluid">
-      <h4>Necromancia</h4><hr>
+      <h4>NECROMANCIA</h4><hr>
       <p>
-        <span class="negrito">Necromancia</span> é uma prática de magia envolvendo a suposta arte de comunicação com o morto — quer por evocação de seus espíritos como aparições, visões ou erguendo-os corporeamente — com a finalidade de adivinhação, transmitir os meios para prever eventos futuros, descobrir conhecimento oculto, trazer alguém de volta dos mortos ou usar os mortos como uma arma. Segundo a Encyclopedia of Religion: "Limitada à prática da conjuração mágica dos mortos, a necromancia não inclui a comunicação por meio de médiuns, como no espiritualismo ou no espiritismo. Nem inclui encontros com as almas dos mortos durante as viagens espirituais dos xamãs, aparições de fantasmas ou comunicações em sonhos, com a possível exceção daquelas em sonhos resultantes de incubação."
+        <span class="negrito">Necromancia</span> é uma prática de magia envolvendo a suposta arte de comunicação com o morto — quer por evocação de seus espíritos como aparições, visões ou erguendo-os corporeamente — com a finalidade de adivinhação, transmitir os meios para prever eventos futuros, descobrir conhecimento oculto, trazer alguém de volta dos mortos ou usar os mortos como uma arma. Segundo a Encyclopedia of Religion: "Limitada à prática da conjuração mágica dos mortos, a necromancia não inclui a comunicação por meio de médiuns, como no espiritualismo ou no espiritismo. Nem inclui encontros com as almas dos mortos durante as viagens espirituais dos xamãs, aparições de fantasmas ou comunicações em sonhos, com a possível exceção daquelas em sonhos resultantes de incubação."        
       </p>
       <p>
         A palavra necromancia é adaptada do latim tardio necromantia, ela própria emprestada do grego pós-clássico νεκρομαντεία (nekromanteía), um composto do grego antigo νεκρός (nekrós), "corpo morto" e μαντεία (manteía), "adivinhação por meio de"; esta forma composta foi usada pela primeira vez por Orígenes de Alexandria no século III d.C. O termo grego clássico era ἡ νέκυια (nekyia), do episódio da Odisseia em que Odisseu visita o reino das almas mortas e νεκρομαντεία no grego helenístico, traduzido como necromantīa em latim e como necromancia no inglês do século XVII. É provável que uma corrupção do termo levou à palavra nigromancia (do latim niger, negro), associando a prática a magia negra ou bruxaria e às vezes referida como "Magia da Morte".
       </p>
+      <div class="card" style="width: 18rem;">
+        <img src="img/necro.jpg" class="card-img-top" alt="Necromancia">
+        <div class="card-body">
+          <h5 class="card-title">Necromancia</h5>
+          <div class="small text-muted">Necro, do grego clássico νεκρός, nekrós, "morte"; e mancia de μαντεία, manteía, "adivinhação"</div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://pt.wikipedia.org/wiki/Necromancia" class="btn btn-primary" target="_blank">Mais</a>
+        </div>
+      </div>
     </article>      
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
