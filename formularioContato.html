@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="topnav fixed-top">
-          <a class="active" href="#home">
+          <a class="active" href="C:\Users\nicole.santos\Pictures\HTML\index.html">
             <img src="img/magicHome.png" width="40" height="40" alt="">
           </a>      
           <div class="topnav-right">
@@ -25,9 +25,35 @@
       </header>
     <section class="#">
 
-        <!-- CONTEUDO TEMP -->
-        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis pretium tortor. Maecenas eu lectus magna. Cras in massa cursus, lobortis ipsum non, iaculis purus. Nam congue sagittis nulla, ac maximus urna imperdiet non. Integer sed magna non odio placerat fermentum. In faucibus urna tellus. Nullam orci lectus, efficitur non libero sit amet, mattis tincidunt dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus elementum, turpis eget tincidunt mattis, leo nunc tristique urna, posuere suscipit nunc erat in ex.            
-        </P>
+      <h1>
+        Contato
+      </h1>
+
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+      
     </section>"
     <footer class="rodape small text-muted">
         <div class="social-media d-inline-flex">
