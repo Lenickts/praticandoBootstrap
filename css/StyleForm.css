@@ -20,7 +20,7 @@ body{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #04AA6D;
   color: black;
 }
 
@@ -138,4 +138,10 @@ input[type=submit]:hover {
 .social-media{
     margin: 20px;
     margin-left: 5cm;
+}
+.rodape a:hover{
+  background-color: #04AA6D;
+  border: 5px solid;
+  border-radius: 5px;
+  border-color: #04AA6D;
 }
