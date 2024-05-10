@@ -6,7 +6,7 @@ h1,h2,h3{
     color: #3CB371;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 100px;
+    padding-top: 30px;
     text-align: center;         
 }
 h5{
@@ -28,20 +28,12 @@ p{
     border: solid 1px;
     border-radius: 10px;
 }
-article{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-} */
-#magia{
-    margin-top: 1000px;
+#magia{    
     border-radius: 10px;
     border-color: #04AA6D;
     border-style: 1px solid;
     padding-top: 3cm;
-    padding-bottom: 1cm;
-    height: 500px;
+    padding-bottom: 1cm;    
     width: 95%;
     display: grid;
 }
