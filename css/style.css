@@ -2,7 +2,7 @@ body{
     background-color: #363636;
 }
 
-h1,h2,h3{
+/* h1,h2,h3{
     color: #3CB371;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,8 +21,6 @@ p{
 }
 .card{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
 }
 .card-body{
@@ -34,7 +32,7 @@ article{
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
-}
+} */
 #magia{
     border-radius: 10px;
     border-color: #04AA6D;
@@ -107,3 +105,5 @@ article{
 .topnav-right {
   float: right;
 }
+
+/* ------------------------ALTERAÇÕES DIV CONTAINER------------------- */
