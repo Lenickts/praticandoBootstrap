@@ -51,7 +51,8 @@ article{
     background-color:#333;
     overflow: hidden;
     color: white;    
-    height: 2cm;    
+    height: 3cm;  
+    overflow: scroll;  
 }
 .rodape p{
     float: right;
@@ -63,6 +64,7 @@ article{
 .social-media{
     margin: 20px;
     margin-left: 5cm;
+    padding-top: 15px;
 }
 .rodape a:hover{
     background-color: #04AA6D;
