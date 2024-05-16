@@ -48,29 +48,67 @@ p{
 .negrito{
     font-weight: bolder;
 }
+/* INICIO FOOTER */
 .rodape{
-    background-color:#333;    
-    color: white;    
-    height: 3cm;
-    overflow: scroll;  
+    background-color: #333;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
 }
 .rodape p{
-    float: right;
-    padding-right: 20px;
-    margin: 0px;
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+#rodape-p{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 12pt;
-    font-family: 'Courier New', Courier, monospace;    
 }
-.social-media{
-    margin: 20px;
-    margin-left: 5cm;
-    padding-top: 15px;
+.rodape span{
+    font-size: 20px;
+    color: white;
 }
-.rodape a:hover{
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+.rodape a:hover {
     background-color: #04AA6D;
     border: 5px solid;
     border-radius: 5px;
     border-color: #04AA6D;
+    padding-bottom: 7px;
+}
+
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
 }
 
 
