@@ -59,7 +59,8 @@ p{
 }
 .rodape a{
     text-decoration: none;
-    color: white;
+    color: white;    
+    margin: 20px 20px 20px 20px;
 }
 .rodape p{
     margin-bottom: 5px;
@@ -83,7 +84,7 @@ p{
 }
 .rodape span{
     font-size: 20px;
-    color: white;
+    color: white;    
 }
 .rodape-direitos{
     width: calc(100% - 20px);
@@ -97,7 +98,7 @@ p{
     border: 5px solid;
     border-radius: 5px;
     border-color: #04AA6D;
-    padding-bottom: 7px;
+    margin:auto;
 }
 
 /*mobile*/
