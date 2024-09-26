@@ -73,11 +73,9 @@ body{
 section{
     display: flex;
     height: 80vh;
-    background-color: #1a1817;
     gap: 30px;
 }
-.conteudo-texto{
-    background-color: blue;    
+.conteudo-texto{        
     width: 80vw;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -85,6 +83,21 @@ section{
 }
 .card{
     width: 500px;
+    height: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-right: 0.50cm;
+    
+}
+.card-body{
+    height: 20px;
+    
+}
+.card-img-top{
+    width: 7vw;
+    height: 50vh;
+}
+#wendigo-img{
+    width: 23.5vw;
+    height: 45vh;
 }
