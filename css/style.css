@@ -1,5 +1,10 @@
 /* FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sarala:wght@400;700&display=swap');
+
+/* justify-content: alinha horizontalmente
+    space-around: adiciona espaço AO REDOR do elemento
+    space-between: espaço ENTRE os elementos
+align-items: alinha verticalmente */
 
 /* RESET DE PRE-CONFIG */
 * {
@@ -20,7 +25,7 @@ body{
     justify-content: space-around;
     align-items: center;
     margin: 20px;
-    background-color: black;   /*REMOVER*/
+    background-color: black;
 }
 .cabecalho-logo{
     display: flex;    
@@ -124,4 +129,29 @@ section{
 #wendigo-img{
     width: 23.5vw;
     height: 45vh;
+}
+.rodape-principal{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 188, 188);
+    height: 30vh;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+.rodape-links{
+    display: inline-flex;
+    align-items: center;
+    padding:15px;   
+    height: 7vh;
+    margin-top: 2cm;
+}
+.rodape-texto{
+    font-family: "Roboto Mono", monospace;
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: #1a1817 solid 0.4px;
+    text-align: center;
+    height: 10vh;
+    margin-bottom: 2cm;
 }
