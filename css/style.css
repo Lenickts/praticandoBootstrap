@@ -1,6 +1,17 @@
 /* FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
+/* RESET DE PRE-CONFIG */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+}
+
 /* INICIO NAVEGAÇÃO */
 .cabecalho{
     display: flex;
@@ -41,4 +52,21 @@
     text-decoration: none;
     color:rgb(235, 235, 180);
     font-size: 25px;
+}
+/* FIM NAVEGAÇÃO */
+
+/* PRINCIPAL */
+.principal{
+    border-top: 0.4px solid #1a1817;
+    margin-bottom: 40px;
+    margin-bottom: 48px;
+    padding-top: 30px;    
+}
+#titulo{
+    text-align: center;
+    font-family: "Righteous", system-ui;
+    font-weight: 400;
+    font-size: 50px;
+    padding: 15px;
+    
 }
