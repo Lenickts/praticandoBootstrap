@@ -9,7 +9,8 @@
     text-decoration: none;
 }
 body{
-    font-size: 100%;
+    /* font-size: 100%; */
+    background: black;
 }
 
 /* INICIO NAVEGAÇÃO */
@@ -74,15 +75,22 @@ section{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* background-color: red; */
+    padding: 10px;
 }
 .conteudo-texto{
-    display: flex;    
+    display: flex; 
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    background-color: blue;
     gap: 30px;
+    padding: 10px;
 }
 .card{
-    display: flex;    
-    justify-content: space-around;
-    align-items: center;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;  
+    display: flex;
+    width: 18rem;
+    
 }
