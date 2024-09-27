@@ -13,24 +13,23 @@
 </head>
 
 <body>
-    <header>
-        <div class="topnav fixed-top">
-            <a class="active" href="C:\Users\nicole.santos\Pictures\HTML\index.html">
-                <img src="img/magicHome.png" width="40" height="40" alt="">
-            </a>
-            <div class="topnav-right">
-                <a href="#news">News</a>
-                <a href="C:\Users\nicole.santos\Pictures\HTML\formularioContato.html">Contact</a>
-                <a href="#search">Search</a>
-                <a href="C:\Users\nicole.santos\Pictures\HTML\sobre.html">About</a>
-            </div>
+    <header class="cabecalho">
+        <div class="cabecalho-logo">
+          <a class="cabecalho-item" href="C:\Users\nicole.santos\Pictures\HTML\index.html">
+            <img class="cabecalho-imagem" src="img/magicHome.png" width="40" height="40" alt="">
+          </a>      
         </div>
-    </header> <!--FIM NAV -->
-
-    <section class="container">
-        <div class="d-flex">
-            <div>
-                <h1>Sobre</h1>
+        <div class="cabecalho-item-pai-direita">
+          <a class="cabecalho-intem-filho-direita" href="#news">News</a>
+          <a class="cabecalho-intem-filho-direita" href="C:\Users\nicole.santos\Pictures\HTML\formularioContato.html">Contact</a>
+          <a class="cabecalho-intem-filho-direita" href="#search">Search</a>
+          <a class="cabecalho-intem-filho-direita" href="C:\Users\nicole.santos\Pictures\HTML\sobre.html">About</a>
+        </div>    
+       </header>      <!--FIM NAV -->
+    <main class="principal">
+        <section class="secao-principal">
+            <h1 class="secao-principal-titulo">Sobre</h1>
+            <div class="secao-sobre">                
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae imperdiet odio. Donec quis quam et
                     nisi cursus rutrum. Aenean sit amet massa et massa vulputate accumsan vel vel erat. Vivamus molestie
                     urna nulla, ac viverra ex porta vitae. Etiam laoreet velit ornare, molestie tellus sit amet,
@@ -41,53 +40,29 @@
                 <p>
                     Vestibulum lacinia sem et arcu imperdiet molestie at at mauris. Suspendisse fermentum varius consectetur. Etiam mattis, lorem venenatis fringilla tristique, felis mi vestibulum felis, id ultrices velit magna vel ante. Praesent a dapibus massa. Curabitur in nunc ut ligula tristique congue. Curabitur mollis non nisi ut blandit. Phasellus vestibulum nibh a nisi gravida, ut porta erat mattis. Aliquam ut dui neque. Maecenas in sapien varius turpis maximus varius. Nullam feugiat fringilla bibendum. Aliquam rhoncus magna vitae leo malesuada, iaculis consequat dui semper.
                 </p>
-            </div>
-
+            </div>            
+        </section>
+        <aside class="secao-principal-lateral">
+            <img id="secao-lateral-img" src="img/wicca-art.jpg" alt="Coleção ícones Wicca">
+        </aside>
+    </main>
+    <footer class="rodape-principal">
+        <div class="rodape-links">
+          <div class="rodape-link-github">
+            <a class="active p-5 g-col-10" href="https://github.com/Lenickts" target="_blank">
+              <img src="img/github.png" width="50" height="50" alt="acesso ao perfil github">
+            </a>
+          </div>
+          <div class="rodape-link-linkdin">
+            <a class="active p-5 g-col-10" href="https://www.linkedin.com/in/nickchols/" target="_blank">
+              <img src="img/linkedin_logo.png" width="50" height="50" alt="acesso ao perfil linkedin">
+            </a>
+          </div>
         </div>
-    </section>
-
-    <footer class="rodape" id="contato">
-        <div class="rodape-div">
-    
-            <div class="rodape-div-1">
-                <div class="rodape-div-1-coluna">
-                    <!-- elemento -->
-                    <!-- empty -->
-                </div>
-            </div>
-    
-            <div class="rodape-div-2">
-                <div class="social-media">
-                    <!-- empty -->
-                </div>
-            </div>
-    
-            <div class="rodape-div-3">
-                <div class="rodape-div-3-coluna">
-                    <!-- elemento -->
-                    <!-- empty -->
-                </div>
-            </div>
-    
-            <div class="rodape-div-4">
-                <div class="rodape-div-4-coluna gap-6">
-                    <!-- elemento -->
-                    <span>
-                        <a class="active p-5 g-col-10" href="https://github.com/Lenickts" target="_blank">
-                            <img src="img/github.png" width="50" height="50" alt="acesso ao perfil github">
-                        </a>
-                    </span>
-                    <span>
-                        <a class="active p-5 g-col-10" href="https://www.linkedin.com/in/nickchols/" target="_blank">
-                            <img src="img/linkedin_logo.png" width="50" height="50" alt="acesso ao perfil linkedin">
-                        </a>
-                    </span>
-                    <p id="rodape-p">Criação por Nicole Monteiro para fins acadêmicos. São Paulo, SP - 2024</p>
-                </div>
-            </div>
-    
-        </div>
-        <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+        <div class="rodape-texto">
+          <p id="rodape-descricao">Criação por Nicole Monteiro para fins acadêmicos. São Paulo, SP - 2024</p>
+          <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+        </div>    
     </footer>
 </body>
 
