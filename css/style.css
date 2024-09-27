@@ -24,7 +24,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
+    margin: 0 auto;
     background-color: black;
 }
 .cabecalho-logo{
@@ -130,6 +130,8 @@ section{
     width: 23.5vw;
     height: 45vh;
 }
+
+/* INICIO RODAPE */
 .rodape-principal{
     display: flex;
     flex-direction: column;
