@@ -24,7 +24,6 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
     background-color: black;
 }
 .cabecalho-logo{
@@ -52,7 +51,7 @@ body{
     padding: 20px;    
 
 }
-.cabecalho-intem-filho-direita{
+.cabecalho-item-filho-direita{
     font-family: "Sarala", system-ui;
     font-weight: 700;
     text-decoration: none;
@@ -81,15 +80,15 @@ body{
     padding: 15px;
     margin-bottom: 1.5cm;
 }
-.conteudo-principal{
+.principal{
     border-top: 0.4px solid #1a1817;
     width: 0 auto;
     height: 0 auto;    
     gap: 30px;
 }
 .conteudo-texto{        
-    margin-bottom: 20px;
-    margin-top: 20px;
+    width: 0 auto;
+    height: 0 auto;
 
 }
 .conteudo-texto p{
@@ -97,16 +96,6 @@ body{
     font-weight: 400;
     font-size: 20px;
     padding: 25px;
-}
-.negrito{
-    font-weight: bold;
-}
-#wendigo-origem{
-    font-family: "Sarala", system-ui;
-    font-weight: 700;
-    font-size: 25px;
-    padding: 35px;
-        
 }
 .conteudo-texto-subtitulo{
     font-family: "Sarala", system-ui;
@@ -128,6 +117,18 @@ body{
 @media screen and (max-width: 768px) {
     .principal{
         flex-direction: column;
+    }
+    .cabecalho{
+        display: none;
+    }
+}
+@media (min-width: 1104px) and (max-width: 1280){
+    .card-text{
+        
+        overflow: scroll;
+    }
+    .conteudo-principal-card{
+        width: 100px;
     }
 }
 
@@ -156,16 +157,4 @@ body{
     text-align: center;
     height: 10vh;
     margin-bottom: 2cm;
-}
-
-@media screen and (max-width: 768px) {
-        /* CABEÇALHO */
-    .cabecalho-logo, .cabecalho-item-pai-direita{
-        display: none;        
-    }
-    .principal{
-        flex-direction: column;
-    }
-    
-   
 }
