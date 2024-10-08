@@ -137,6 +137,13 @@ body{
     .rodape-principal{
         font-size: 0.8rem;
     }
+    #card-hecate{
+        justify-content: center ;
+    }    
+    #img-necro,#img-wicca, #img-hecate{
+        width: auto;
+        object-fit: fill;
+    }
 
 }
 @media (min-width: 1104px) and (max-width: 1380){
