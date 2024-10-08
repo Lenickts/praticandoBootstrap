@@ -112,9 +112,18 @@ body{
     width: 0 auto;
     height: 0 auto;
 }
-.card-img-top{
-    width: 100%;
 
+/* Ajuste do card Hecate por completo + as imagens wicca e necromancia */
+#card-hecate{
+    width: 18rem;
+    
+}
+#img-hecate{
+    object-fit: cover;
+}
+#img-necro,#img-wicca, #img-hecate{
+    width: 18rem;
+    height: 20rem;
 }
 
 
