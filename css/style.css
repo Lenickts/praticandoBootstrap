@@ -114,7 +114,7 @@ body{
 }
 
 /* Ajuste do card Hecate por completo + as imagens wicca e necromancia */
-#card-hecate{
+#card-hecate, #card-wendigo{
     width: 18rem;
     
 }
@@ -146,14 +146,13 @@ body{
     }
 
 }
-@media (min-width: 1104px) and (max-width: 1380){
-    .card-text{
-        
+@media screen and (min-width: 1000px) and (max-width: 1380){
+    .card-text{        
         overflow: scroll;
     }
     .conteudo-principal-card{
         width: 100px;
-    }    
+    }
 }
 
 /* INICIO RODAPE */
