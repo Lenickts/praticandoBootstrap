@@ -80,6 +80,9 @@ body{
     padding: 15px;
     margin-bottom: 1.5cm;
 }
+#wendigo-origem{
+    text-align: center;
+}
 .principal{
     border-top: 0.4px solid #1a1817;
     width: 0 auto;
@@ -122,22 +125,19 @@ body{
     .cabecalho{
         display: none;
     }
-    #wendigo-origem{
-        text-align: center;
-    }
     .rodape-principal{
         font-size: 0.8rem;
     }
 
 }
-@media (min-width: 1104px) and (max-width: 1280){
+@media (min-width: 1104px) and (max-width: 1380){
     .card-text{
         
         overflow: scroll;
     }
     .conteudo-principal-card{
         width: 100px;
-    }
+    }    
 }
 
 /* INICIO RODAPE */
