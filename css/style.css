@@ -129,6 +129,7 @@ body{
 
 @media screen and (max-width: 768px) {
     .principal{
+        display: flex;
         flex-direction: column;
     }
     .cabecalho{
@@ -137,9 +138,9 @@ body{
     .rodape-principal{
         font-size: 0.8rem;
     }
-    #card-hecate{
-        justify-content: center ;
-    }    
+    #card-hecate, #card-wendigo{
+        margin-left: 2rem;
+    }            
     #img-necro,#img-wicca, #img-hecate{
         width: auto;
         object-fit: fill;
