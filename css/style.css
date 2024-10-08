@@ -110,7 +110,8 @@ body{
     height: 0 auto;
 }
 .card-img-top{
-    width: 16rem;
+    width: 100%;
+
 }
 
 
@@ -121,6 +122,13 @@ body{
     .cabecalho{
         display: none;
     }
+    #wendigo-origem{
+        text-align: center;
+    }
+    .rodape-principal{
+        font-size: 0.8rem;
+    }
+
 }
 @media (min-width: 1104px) and (max-width: 1280){
     .card-text{
