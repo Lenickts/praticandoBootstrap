@@ -1,5 +1,5 @@
 /* IMPORT DE FONTES */
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sarala:wght@400;700&display=swap');
 
 /* RESET DE PRE-CONFIG */
 * {
@@ -83,6 +83,8 @@ h5 {
     width: 60vw;
 }
 .secao-principal-titulo{
+    font-family: "Sarala", system-ui;
+    font-weight: 700;
     padding: 10px;
     margin-top: 2cm;
 }
@@ -110,15 +112,29 @@ h5 {
     align-items: center;
 }
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Righteous", system-ui;
     font-size: 14pt;
     padding-top: 30px;
     margin-left: 15px;
 }
 
-.negrito {
-    font-weight: bolder;
+
+/* MEDIA QUERY */
+
+@media (max-width: 700px) {
+    /* .cabecalho{
+        display: none;
+    }
+   .principal {
+        flex-direction: column;
+        gap: 15rem;        
+    }
+    .secao-principal{
+        gap: 15rem;
+    } */
+
 }
+        /* FIM MEDIA QUERY */
 
 /* INICIO RODAPE */
 .rodape-principal{
