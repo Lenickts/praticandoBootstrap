@@ -8,8 +8,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-body {
-    background: red;
+body{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* INICIO NAVEGAÇÃO */
@@ -18,7 +19,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
     background-color: black;
 }
 .cabecalho-logo{
@@ -46,7 +46,7 @@ body {
     padding: 20px;    
 
 }
-.cabecalho-intem-filho-direita{
+.cabecalho-item-filho-direita{
     font-family: "Sarala", system-ui;
     font-weight: 700;
     text-decoration: none;
@@ -125,7 +125,7 @@ p {
     display: flex;
     flex-direction: column;
     background-color: rgb(196, 188, 188);
-    height: 33vh;
+    height: 20rem;
     gap: 5px;
     align-items: center;
     justify-content: space-around;
@@ -134,15 +134,16 @@ p {
     display: inline-flex;
     align-items: center;
     padding:15px;   
-    height: 7vh;
+    height: 7rem;
     margin-top: 2cm;
+    padding-top: 2rem;
 }
 .rodape-texto{
     font-family: "Roboto Mono", monospace;
-    margin-top: 10px;
-    padding-top: 15px;
     border-top: #1a1817 solid 0.4px;
+    padding-top: 3rem;
     text-align: center;
-    height: 10vh;
+    width: auto;
+    height: auto;
     margin-bottom: 2cm;
 }
