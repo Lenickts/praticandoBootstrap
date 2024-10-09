@@ -126,8 +126,7 @@ body{
     height: 20rem;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 390px) and (max-width: 768px) {
     .principal{
         display: flex;
         flex-direction: column;
@@ -138,8 +137,12 @@ body{
     .rodape-principal{
         font-size: 0.8rem;
     }
-    #card-hecate, #card-wendigo{
-        margin-left: 2rem;
+    .conteudo-principal-card{
+        margin-left: 5rem
+    }
+    .card, #card-hecate, #card-wendigo{
+        width: 18rem;
+        justify-content: center;
     }            
     #img-necro,#img-wicca, #img-hecate{
         width: auto;
@@ -161,7 +164,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: rgb(196, 188, 188);
-    height: 30vh;
+    height: 15rem;
     gap: 5px;
     align-items: center;
     justify-content: space-around;
@@ -170,15 +173,16 @@ body{
     display: inline-flex;
     align-items: center;
     padding:15px;   
-    height: 7vh;
+    height: 7rem;
     margin-top: 2cm;
+    padding-top: 2rem;
 }
 .rodape-texto{
     font-family: "Roboto Mono", monospace;
-    margin-top: 10px;
-    padding-top: 15px;
     border-top: #1a1817 solid 0.4px;
+    padding-top: 3rem;
     text-align: center;
-    height: 10vh;
+    width: auto;
+    height: auto;
     margin-bottom: 2cm;
 }
