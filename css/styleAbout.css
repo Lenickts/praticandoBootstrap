@@ -61,14 +61,14 @@ body{
     display: flex;
     height: 100vh;
     gap: 30px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .secao-principal{
     display: flex;
     flex-direction: column;    
     height: 0 auto;
     width: 60vw;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .secao-principal-titulo{
     font-family: "Sarala", system-ui;
@@ -77,7 +77,7 @@ body{
     margin-top: 2cm;
     color: #3CB371;
     text-align: center;
-    background-color: red;
+    /* background-color: red; */
 }
 .secao-sobre{
     display: flex;
@@ -87,7 +87,7 @@ body{
     border-right: #1a1817 solid 0.4px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: indigo;
+    /* background-color: indigo; */
 }
 .secao-sobre p{
     font-family: "Righteous", system-ui;
@@ -102,7 +102,7 @@ body{
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    background-color: saddlebrown;
+    /* background-color: saddlebrown; */
 }
 #secao-lateral-img{
     display: flex;
