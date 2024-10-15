@@ -15,7 +15,8 @@ align-items: alinha verticalmente */
 }
 body{
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%;    
+    background-color: black;
 }
 
 /* INICIO NAVEGAÇÃO */
@@ -138,7 +139,7 @@ body{
         font-size: 0.8rem;
     }
     .conteudo-principal-card{
-        margin-left: 3rem
+        margin-left: 3rem;
     }
     .card, #card-hecate, #card-wendigo{
         width: 18rem;
