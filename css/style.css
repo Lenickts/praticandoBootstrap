@@ -13,7 +13,11 @@ align-items: alinha verticalmente */
     box-sizing: border-box;
     text-decoration: none;
 }
+<<<<<<< HEAD
 body{
+=======
+body{  
+>>>>>>> praticar
     background-color: black;
 }
 
