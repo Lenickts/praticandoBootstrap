@@ -111,11 +111,17 @@ body{
     width: 0 auto;
     height: 0 auto;
 }
+.cabecalho-item-filho-direita:visited{
+    color: #3CB371;
+}
+.cabecalho-item-filho-direita:hover{
+    font-size: 50px;
+    color: #3CB371;
+}
 
 /* Ajuste do card Hecate por completo + as imagens wicca e necromancia */
 #card-hecate, #card-wendigo{
     width: 18rem;
-    
 }
 #img-hecate{
     object-fit: cover;
