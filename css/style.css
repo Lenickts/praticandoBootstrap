@@ -13,9 +13,7 @@ align-items: alinha verticalmente */
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
-    max-width: 100%;
-    max-height: 100%;    
+body{  
     background-color: black;
 }
 
