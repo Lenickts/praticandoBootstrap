@@ -1,10 +1,12 @@
 /* FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sarala:wght@400;700&display=swap');
 
-/* justify-content: alinha horizontalmente
+/* justify-content: alinha horizontalmente (main axis) na posição ROW.
+    align-items: alinha verticalmente (cros axis) na posição ROW
+    Esses dois invertem quando a tela for COLUMN
     space-around: adiciona espaço AO REDOR do elemento
     space-between: espaço ENTRE os elementos
-align-items: alinha verticalmente */
+ */
 
 /* RESET DE PRE-CONFIG */
 * {
@@ -13,12 +15,7 @@ align-items: alinha verticalmente */
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
-<<<<<<< HEAD
-    max-width: 100%;
-    max-height: 100%;
-=======
-    /* font-size: 100%; */
+body{  
     background-color: black;
 }
 
@@ -116,11 +113,17 @@ body{
     width: 0 auto;
     height: 0 auto;
 }
+.cabecalho-item-filho-direita:visited{
+    color: #3CB371;
+}
+.cabecalho-item-filho-direita:hover{
+    font-size: 50px;
+    color: #3CB371;
+}
 
 /* Ajuste do card Hecate por completo + as imagens wicca e necromancia */
 #card-hecate, #card-wendigo{
     width: 18rem;
-    
 }
 #img-hecate{
     object-fit: cover;
@@ -130,10 +133,11 @@ body{
     height: 20rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
     .principal{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .cabecalho{
         display: none;
@@ -141,18 +145,10 @@ body{
     .rodape-principal{
         font-size: 0.8rem;
     }
-    .conteudo-principal-card{
-        margin-left: 3rem
-    }
-    .card, #card-hecate, #card-wendigo{
-        width: 18rem;
-        justify-content: center;
-    }            
     #img-necro,#img-wicca, #img-hecate{
         width: auto;
         object-fit: fill;
     }
-
 }
 @media screen and (min-width: 1000px) and (max-width: 1380){
     .card-text{        
