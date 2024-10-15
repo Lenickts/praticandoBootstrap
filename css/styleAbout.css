@@ -21,6 +21,12 @@ body{
     align-items: center;
     background-color: black;
 }
+
+/* AÇÕES DO LINK */
+a:visited{
+    color: #3CB371;
+}
+
 .cabecalho-logo{
     display: flex;    
     justify-content: space-around;
@@ -77,6 +83,7 @@ body{
     margin-top: 2cm;
     color: #3CB371;
     text-align: center;
+    margin-bottom: 1cm;
     /* background-color: red; */
 }
 .secao-sobre{
@@ -114,7 +121,7 @@ body{
 
 
 /* MEDIA QUERY */
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .cabecalho{
         display: none;
     }
@@ -134,6 +141,9 @@ body{
         width: 100%;
         height: auto;
     }
+    .secao-principal-titulo{
+        font-size: 30pt;
+    }
     .secao-principal-lateral{
         align-items: center;
         justify-content: center;
@@ -147,6 +157,12 @@ body{
     }   
 
 }
+@media (min-width: 901px) and (max-width: 1000px){
+    .secao-principal-titulo{
+        margin-bottom: 2cm;
+    }
+}
+
         /* FIM MEDIA QUERY */
 
 /* INICIO RODAPE */
