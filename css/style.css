@@ -17,11 +17,9 @@ body{
 <<<<<<< HEAD
     max-width: 100%;
     max-height: 100%;
-
 =======
     /* font-size: 100%; */
     background-color: black;
->>>>>>> 4feb258bc0bd3e07f186e2d0fe9f9db00549ea94
 }
 
 /* INICIO NAVEGAÇÃO */
@@ -144,7 +142,7 @@ body{
         font-size: 0.8rem;
     }
     .conteudo-principal-card{
-        margin-left: 3rem;
+        margin-left: 3rem
     }
     .card, #card-hecate, #card-wendigo{
         width: 18rem;
