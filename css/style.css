@@ -13,11 +13,7 @@ align-items: alinha verticalmente */
     box-sizing: border-box;
     text-decoration: none;
 }
-<<<<<<< HEAD
-body{
-=======
 body{  
->>>>>>> praticar
     background-color: black;
 }
 
@@ -129,7 +125,7 @@ body{
     height: 20rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
     .principal{
         display: flex;
         flex-direction: column;
