@@ -1,43 +1,61 @@
-body{
-  background-color: #363636;
+/* IMPORT DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sarala:wght@400;700&display=swap');
+
+/* RESET DE PRE-CONFIG */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
+/* INICIO NAVEGAÇÃO */
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+/* AÇÕES DO LINK */
+a:visited{
+  color: #3CB371;
+}
+
+.cabecalho-logo{
+  display: flex;    
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  gap: 40px;
+}
+.cabecalho-item{
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+}
+.cabecalho-imagem{
+  display: flex;
+  height: 70px;
+  width: 73px;
+  margin: 0 auto;    
+}
+.cabecalho-item-pai-direita{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 20px;    
+
+}
+.cabecalho-item-filho-direita{
+  font-family: "Sarala", system-ui;
+  font-weight: 700;
   text-decoration: none;
-  font-size: 17px;
+  color:rgb(235, 235, 180);
+  font-size: 25px;
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #04AA6D;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-}
-
-/* ------------------FIM NAV---------------- */
-
-
+/* FIM NAVEGAÇÃO */
 
 h1,h2,h3{
   color: #3CB371;
@@ -120,28 +138,29 @@ input[type=submit]:hover {
 
 
 /* ---------------INICIO RODAPE----------------- */
-
-.rodape{
-    background-color:#333;
-    overflow: hidden;
-    color: white;    
-    height: 2cm;    
+.rodape-principal{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 188, 188);
+  height: 20rem;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-around;
 }
-.rodape p{
-    float: right;
-    padding-top: 25px;
-    padding-right: 20px;
-    margin: 0px;
-    font-size: 12pt;
-    font-family: 'Courier New', Courier, monospace;    
+.rodape-links{
+  display: inline-flex;
+  align-items: center;
+  padding:15px;   
+  height: 7rem;
+  margin-top: 2cm;
+  padding-top: 2rem;
 }
-.social-media{
-    margin: 20px;
-    margin-left: 5cm;
-}
-.rodape a:hover{
-  background-color: #04AA6D;
-  border: 5px solid;
-  border-radius: 5px;
-  border-color: #04AA6D;
+.rodape-texto{
+  font-family: "Roboto Mono", monospace;
+  border-top: #1a1817 solid 0.4px;
+  padding-top: 3rem;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 2cm;
 }
